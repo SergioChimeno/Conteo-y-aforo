@@ -1,7 +1,7 @@
 import cv2 as cv
 
 green=(0,255,0)
-video_source = 'vtest.avi'
+video_source = '../data/vtest.avi'
 video = cv.VideoCapture(video_source)
 
 people_cascade=cv.CascadeClassifier('haarcascade_fullbody.xml')

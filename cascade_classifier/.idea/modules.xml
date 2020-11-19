@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../HOG_SVM/.idea/HOG_SVM.iml" filepath="$PROJECT_DIR$/../HOG_SVM/.idea/HOG_SVM.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/cascade_classifier.iml" filepath="$PROJECT_DIR$/.idea/cascade_classifier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../data/.idea/data.iml" filepath="$PROJECT_DIR$/../data/.idea/data.iml" />
     </modules>
   </component>
 </project>
