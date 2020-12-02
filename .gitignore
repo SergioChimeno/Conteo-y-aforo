@@ -1,4 +1,4 @@
 data/stanford_campus_dataset/*
-data/vtest
+data/vtest.mov
 data/negative/*
 data/positive/*
