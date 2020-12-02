@@ -1,0 +1,4 @@
+data/stanford_campus_dataset/*
+data/vtest
+data/negative/*
+data/positive/*
