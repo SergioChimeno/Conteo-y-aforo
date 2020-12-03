@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../HOG_SVM/.idea/HOG_SVM.iml" filepath="$PROJECT_DIR$/../HOG_SVM/.idea/HOG_SVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SSD_detector/.idea/SSD_detector.iml" filepath="$PROJECT_DIR$/../SSD_detector/.idea/SSD_detector.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/cascade_classifier.iml" filepath="$PROJECT_DIR$/.idea/cascade_classifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/../data/.idea/data.iml" filepath="$PROJECT_DIR$/../data/.idea/data.iml" />
     </modules>

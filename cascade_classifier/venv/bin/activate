@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/sergio/Desktop/Conteo-y-aforo/cascade_classifier/venv"
+VIRTUAL_ENV="/home/sergio/Desktop/opcv/Conteo-y-aforo/cascade_classifier/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

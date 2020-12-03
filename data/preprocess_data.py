@@ -245,7 +245,7 @@ def create_vector_file(vec_path,description_file_path,cantidad_imagenes=10):
 def train_cascade(output_folder,vec_path,bg_file,num_positive,num_negative,num_stages):
     subprocess.run("opencv_traincascade -data "+output_folder+" -vec "+vec_path+" -bg "+bg_file+" -numPos "+str(num_positive)+" -numNeg "+ str(num_negative)+
                     " -numStages "+str(num_stages)+f" -w {SLIDE_WINDOW_WIDTH} -h {SLIDE_WINDOW_HEIGHT} " +
-                   "-featureType LBP",shell=True)
+                   "-featureType LBP -mode ALL",shell=True)
 
 
 
@@ -253,8 +253,8 @@ videos_path,annotations_path=get_paths()
 # visualizar_shape_imagenes_positivas(10000,100)
 
 #Obtenemos las imágenes positivas, creamos la description file y creamos la vector file
-# cantidad_imagenes=10000
-# anotaciones_ignoradas=100
+cantidad_imagenes=10000
+anotaciones_ignoradas=100
 # guardar_imagenes_positivas(POSITIVE_PATH,cantidad_imagenes=cantidad_imagenes,anotaciones_ignoradas=anotaciones_ignoradas)
 # description_file_positive="info.dat"
 vec_positive_file='./positive.vec'
@@ -268,4 +268,4 @@ bg_file = "bg.txt"
 
 #Entrenar la cascada
 pos_images=8000
-train_cascade("output_entrenamiento",vec_positive_file,bg_file,pos_images,pos_images,20)
+train_cascade("output_entrenamiento",vec_positive_file,bg_file,pos_images,pos_images,10)

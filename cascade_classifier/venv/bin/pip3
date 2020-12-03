@@ -1,4 +1,4 @@
-#!/home/sergio/Desktop/Conteo-y-aforo/cascade_classifier/venv/bin/python
+#!/home/sergio/Desktop/opcv/Conteo-y-aforo/cascade_classifier/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
